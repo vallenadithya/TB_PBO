@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /*
 Anggota Kelompok :
 Sekar Rayhannisa          2011521022
@@ -10,6 +12,8 @@ public class KeranjangBelanja extends Barang {
     private Barang[] barangs;
     private int[] jumlahBarangs;
     private int indeksBarang;
+
+    Scanner a=new Scanner(System.in);
 
     public KeranjangBelanja(){
         barangs=new Barang[100];
@@ -58,7 +62,13 @@ public class KeranjangBelanja extends Barang {
         System.out.println("6. Laporan");
         System.out.println("--------------------------\n");
         System.out.println("Masukkan Pilihan Anda : "); 
-
+        int input =a.nextInt();
+        if(input==1){tambahBarang(null, input);} else
+        if(input==2){cariBarang();}else 
+        if(input==3){transaksiPembelian();} else 
+        if(input==4){transaksiPenjualan();} else 
+        if(input==5){member();}else 
+        if(input==6){laporan();}else System.err.println("Input salah!");
     }
 
 }
