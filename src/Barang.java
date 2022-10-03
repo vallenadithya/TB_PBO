@@ -70,12 +70,7 @@ public class Barang implements TokoABC{
         System.out.println("Stok        : " + stok);
     }
 
-    @Override
-    public void tambahBarang() {
-        
-        
-    }
-
+    
     @Override
     public void cariBarang() {
         
