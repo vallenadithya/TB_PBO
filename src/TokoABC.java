@@ -1,5 +1,5 @@
-public interface TokoABC {
-    
+public interface TokoABC {  
+    public void tambahBarang();
     public void cariBarang();
     public void transaksiPembelian();
     public void transaksiPenjualan();
