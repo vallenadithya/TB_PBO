@@ -48,4 +48,17 @@ public class KeranjangBelanja extends Barang {
         return total;
     }
 
+    public void showMenu(){
+        System.out.println("---------- MENU ----------");
+        System.out.println("1. Tambah Barang");
+        System.out.println("2. Cari Barang");
+        System.out.println("3. Transaksi Pembelian");
+        System.out.println("4. Transaksi Penjualan");
+        System.out.println("5. Memeber");
+        System.out.println("6. Laporan");
+        System.out.println("--------------------------\n");
+        System.out.println("Masukkan Pilihan Anda : "); 
+
+    }
+
 }

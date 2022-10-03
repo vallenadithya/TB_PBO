@@ -21,8 +21,7 @@ public class App {
         kb.tambahBarang(barang01,5);
         kb.tambahBarang(barang02,3);
 
-        int total=kb.hitungTotalBelanja();
-        System.out.println(total);
+        kb.showMenu();
 
     }
 }
